@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chance Garibay Portfolio</title>
+    <style>
+        /* Style inputs with type="text", select elements and textareas */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            /* Full width */
+            padding: 12px;
+            /* Some padding */
+            border: 1px solid #ccc;
+            /* Gray border */
+            border-radius: 4px;
+            /* Rounded borders */
+            box-sizing: border-box;
+            /* Make sure that padding and width stays in place */
+            margin-top: 6px;
+            /* Add a top margin */
+            margin-bottom: 16px;
+            /* Bottom margin */
+            resize: vertical
+                /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Add a background color and some padding around the form */
+        .container {
+            border-radius: 5px;
+            background-color: #023761;
+            padding: 20px;
+        }
+
+        p {
+            font-family: "Times New Roman", Times, serif;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: auto;
+        }
+
+        body {
+            background-color: #091431;
+        }
+
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+            color: rgb(255, 255, 255);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        .blackbox {
+            margin-left: 400px;
+            background-color: rgb(0, 0, 0);
+            border: 13px hwb(0 0% 100%) solid;
+            padding: 40px;
+            width: 50%;
+        }
+
+        .background {
+            background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8963873.jpg&f=1&nofb=1&ipt=72e46875d1dbc064db249f79fbc5ae259192192705e0d53015ec1846489ffa0c");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .blackgradientdiv {
+            margin-bottom: 20px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+            height: 80px;
+        }
+
+        /* Dropdown Button */
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="hero-text">
+            <h1>I am Chance Garibay</h1>
+            <p>And I am an Artist, Animator, and Game Designer</p>
+            <button>Hire me</button>
+        </div>
+    </div>
+    </div>
+</body>
+</div>
+<div class="blackgradientdiv">
+</div>
+</div>
+<div class="dropdown">
+
+    <button class="dropbtn">A Links Section</button>
+    <div class="dropdown-content">
+        <a href="https://inspiregamestudios.com/">Inspire Game Studios</a>
+        <a href="#https://www.coolmathgames.com/">Cool Math Games</a>
+        <a href="#https://weebcentral.com/">Weeb Central</a>
+    </div>
+
+</div>
+<div class="blackbox">
+    <h1>Fallen Seoul</h1>
+    <p>This game takes place in the remnants of Seoul, South Korea, sometime in the distant future. It follows the
+        perspective of a mechanic who worked for a corrupt robotics company which caused the destruction. He’s the only
+        human left in the city, and will have to gather upgrades around a linear map to upgrade his robot companion in
+        order to reach new areas, and overcome obstacles.</p>
+    <h1>You're... Who?</h1>
+    <p>This game is a platformer where you are a criminal trying to escape a notorious dungeon. Meet charming prisoners,
+        face perils, and escape. Yet... are you the same person you once were?</p>
+    <h1>Alms of Witheria</h1>
+    <p>You are a Mage collecting Light-Matter to give to the Poor. Collect Light-Matter, avoid Dark-Matter. How high can
+        you get your score? You have a bowl that collects Light-Matter.</p>
+</div>
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+
+</html>
